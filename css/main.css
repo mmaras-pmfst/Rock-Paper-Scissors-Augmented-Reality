@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: inherit;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mask {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  opacity: 0.9;
+  background-color: cadetblue;
+  border-top: 2px solid black;
+  align-items: center;
+  text-align: center;
+}
+
+#arjsDebugUIContainer {
+  display: none;
+}
+
+.a-enter-vr-button {
+  display: none;
+}
+
+.buttons {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  flex: 1;
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+}
+
+#skare {
+  flex: 1;
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+#papir {
+  flex: 1;
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+/* Main Screen */
+.winner {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 0.9;
+}
+
+.score {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.rock {
+  border-radius: 10px;
+  transition: all ease 0.3s;
+  position: relative;
+}
+
+.paper {
+  border-radius: 10px;
+  transition: all ease 0.3s;
+  position: relative;
+}
+
+.scissors {
+  border-radius: 10px;
+  transition: all ease 0.3s;
+  position: relative;
+}
+
+.rock:hover {
+  transform: scale(1.1);
+}
+
+.paper:hover {
+  transform: scale(1.1);
+}
+
+.scissors:hover {
+  transform: scale(1.1);
+}
+
+.rock:active {
+  box-shadow: 0 3px 0 lightblue;
+  top: 3px;
+}
+
+.paper:active {
+  box-shadow: 0 3px 0 red;
+  top: 3px;
+}
+
+.scissors:active {
+  box-shadow: 0 3px 0 lightgreen;
+  top: 3px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 9px;
+}
+
+@media (max-width: 600px) {
+  .mask {
+    width: 100%;
+    margin-left: 79%;
+  }
+}
+
+.popUp {
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.homeDiv {
+  flex: 1;
+}
+
+.replayDiv {
+  flex: 1;
+}
+
+.popUp button {
+  height: 30px;
+  width: 100px;
+
+  background: #EBB51E;
+  border: 1px solid black;
+  border-radius: 20px;
+
+  transition: ease all 0.3s;
+}
+
+.popUp button:hover {
+  transform: scale(1.1);
+}
+
+.popUp a {
+  color: black;
+}

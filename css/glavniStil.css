@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #09b1b3;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Global */
+.back {
+  flex: 1;
+  text-align: left;
+  margin-left: 10px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+.fill {
+  flex: 1;
+}
+
+/* Index Page */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navigation {
+  text-align: center;
+  color: #f33a26;
+}
+
+.main {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.name {
+  padding-top: 10px;
+  font-size: 40px;
+  font-weight: bold;
+
+  text-shadow: 2px 3px #696969;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 25%;
+}
+.btn-start {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.btn-rules {
+  font-size: 20px;
+}
+
+button {
+  width: 200px;
+  height: 100px;
+  border-radius: 25px;
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  border: 4px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+
+  outline: none;
+}
+
+button:hover {
+  color: #ffffff !important;
+  background: #f33a26;
+  border-color: #f33a26 !important;
+  transition: all 0.4s ease 0s;
+}
+
+@media all and (max-width: 768px) {
+  button {
+    display: block;
+  }
+}
+
+/* Options */
+
+.container-options {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation-options {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 10px;
+  color: #f33a26;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+  text-shadow: 2px 3px #696969;
+}
+
+.mode {
+  display: inline;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.btn-3 {
+  font-size: 20px;
+}
+
+.btn-5 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.btn-ns {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* Rules */
+
+.navigation-rules {
+  display: flex;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 10px;
+  color: #f33a26;
+  font-size: 40px;
+  font-weight: bold;
+
+  text-shadow: 2px 3px #696969;
+}
+
+.rules {
+  flex: 1;
+}
+
+.container-rules {
+  font-size: 20px;
+  margin-left: 10px;
+  text-align: center;
+}
